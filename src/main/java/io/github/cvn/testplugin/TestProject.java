@@ -1,7 +1,7 @@
 package io.github.cvn.testplugin;
 
 import net.minecraft.server.MinecraftServer;
-import org.bukkit.craftbukkit.v1_19_R3.CraftServer;
+import org.bukkit.craftbukkit.v1_17_R1.CraftServer;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TestProject extends JavaPlugin {
@@ -12,10 +12,5 @@ public final class TestProject extends JavaPlugin {
         MinecraftServer mcserver = server.getServer();
 
         mcserver.setMotd("eee");
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 }

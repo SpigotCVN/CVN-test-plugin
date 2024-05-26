@@ -1,18 +1,17 @@
-package io.github.cvn.nmtestproject;
+package io.github.cvn.testplugin;
 
 import net.minecraft.server.MinecraftServer;
 import org.bukkit.craftbukkit.v1_19_R3.CraftServer;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class NMSTestProject extends JavaPlugin {
+public final class TestProject extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
         CraftServer server = (CraftServer) getServer();
         MinecraftServer mcserver = server.getServer();
 
-        mcserver.setPort(25565);
-        mcserver.setUsesAuthentication(true);
+        mcserver.setMotd("eee");
     }
 
     @Override

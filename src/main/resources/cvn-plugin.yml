@@ -1,4 +1,4 @@
-name: NMSTestProject
+name: TestProject
 version: '${version}'
-main: me.andreasmelone.nmstestproject.NMSTestProject
+main: io.github.cvn.testplugin.TestProject
 api-version: '1.20'

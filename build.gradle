@@ -1,9 +1,9 @@
 plugins {
     id 'java'
-    id 'io.github.cvn.gniremapper' version '1.0-SNAPSHOT'
+    id 'io.github.cvn.remapper' version '1.0-SNAPSHOT'
 }
 
-group = 'me.andreasmelone'
+group = 'io.github.cvn'
 version = '1.0'
 
 repositories {
@@ -23,7 +23,7 @@ dependencies {
     compileOnly "org.spigotmc:spigot:1.19.4-R0.1-SNAPSHOT:remapped-mojang"
 }
 
-def targetJavaVersion = 17
+def targetJavaVersion = 8
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion

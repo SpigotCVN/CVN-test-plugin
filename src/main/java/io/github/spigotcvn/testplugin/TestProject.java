@@ -1,4 +1,4 @@
-package io.github.cvn.testplugin;
+package io.github.spigotcvn.testplugin;
 
 import net.minecraft.server.dedicated.DedicatedServer;
 import org.bukkit.craftbukkit.v1_17_R1.CraftServer;

@@ -1,4 +1,4 @@
-package io.github.cvn.testplugin;
+package io.github.spigotcvn.testplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

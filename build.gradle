@@ -1,9 +1,9 @@
 plugins {
     id 'java'
-    id 'io.github.cvn.remapper' version '1.0-SNAPSHOT'
+    id 'io.github.spigotcvn.remapper' version '1.0-SNAPSHOT'
 }
 
-group = 'io.github.cvn'
+group = 'io.github.spigotcvn'
 version = '1.0'
 
 repositories {

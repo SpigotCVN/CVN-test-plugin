@@ -1,3 +1,0 @@
-name: TestProject
-version: '${version}'
-main: io.github.spigotcvn.testplugin.TestProject

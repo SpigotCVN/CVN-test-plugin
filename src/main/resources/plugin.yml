@@ -1,3 +1,4 @@
-name: TestProject
-version: '${version}'
-main: io.github.spigotcvn.testplugin.DummyPlugin
+name: Test
+version: 1.0
+main: io.github.spigotcvn.test.Test
+api-version: '1.20'

@@ -39,12 +39,6 @@ tasks.withType(JavaCompile).configureEach {
     }
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': "io.github.spigotcvn.test.Test"
-    }
-}
-
 processResources {
     def props = [version: version]
     inputs.properties props
